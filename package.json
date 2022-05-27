@@ -1,0 +1,66 @@
+{
+    "name": "flutter-extensions",
+    "displayName": "Flutter Extensions",
+    "description": "A Visual Studio Code Extensions Pack for the Flutter Developer to Be More Productive",
+    "version": "0.0.1",
+    "publisher": "eduardoflorence",
+    "icon": "flutter.png",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "scripts": {
+        "publish": "/Users/eduardoflorence/.npm-global/lib/node_modules/vsce/vsce package"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "galleryBanner": {
+		"color": "#000000",
+		"theme": "dark"
+	},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eduardoflorence/flutter-extensions"
+    },
+    "bugs": {
+		"url": "https://github.com/eduardoflorence/flutter-extensions/issues"
+	},
+    "author": "Eduardo Florence <eduardo@infolink.com.br> (https://github.com/eduardoflorence)",
+    "keywords": [
+        "flutter",
+        "dart",
+        "ios",
+        "android",
+        "mobile",
+        "snippet",
+        "snippets",
+        "widgets",
+        "developer"
+    ],
+    "extensionPack": [ 
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter",
+        "Nash.awesome-flutter-snippets",
+        "alexisvt.flutter-snippets",
+        "aaron-bond.better-comments",
+        "plibither8.remove-comments",
+        "Gruntfuggly.todo-tree",
+        "FelixAngelov.bloc",
+        "alefragnani.Bookmarks",
+        "adpyke.codesnap",
+        "miquelddg.dart-barrel-file-generator",
+        "hzgood.dart-data-class-generator",
+        "luanpotter.dart-import",
+        "dracula-theme.theme-dracula",
+        "vscode-icons-team.vscode-icons",
+        "mrmlnc.vscode-duplicate",
+        "usernamehw.errorlens",
+        "pflannery.vscode-versionlens",
+        "andreasblech.better-tests",
+        "jeroen-meijer.pubspec-assist",
+        "everettjf.pubspec-dependency-search",
+        "albert.TabOut",
+        "lkytal.pomodoro",
+        "WakaTime.vscode-wakatime"
+    ]
+}
